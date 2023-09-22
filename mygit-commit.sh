@@ -6,6 +6,6 @@ if [ "$1" != "-m" ] || [ -z "$2" ]; then
 fi
 
 git add .
-git commit -m "$1"
+git commit -m "$2"
 
 echo "Changes committed with message: $1"
