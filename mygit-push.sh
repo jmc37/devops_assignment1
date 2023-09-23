@@ -1,5 +1,8 @@
 #!/bin/bash
 
-git push
-
-echo "Changes pushed to remote repository."
+# Attempt to push changes
+if git push; then
+    echo "Changes pushed to remote repository."
+else
+    echo "Error: Unable to push changes to remote repository."
+fi
