@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "List of Commands"
+echo "1. Initialize a Git Repository: mygit-init <directory>"
+echo "2. Clone a Git Repository: mygit-clone <remote_url> <local_directory>"
+echo "3. Commit Changes: mygit-commit -m \"<commit_message>\""
+echo "4. Push Changes: mygit-push"
+echo "5. Create a Directory: mygit-create-directory <directory_name>"
+echo "6. Delete a File: mygit-delete-file <file_name>"
+echo "7. Delete a Directory: mygit-delete-directory <directory_name>"
+echo "8. List Directory Contents: mygit-list-contents <directory>"
